@@ -41,7 +41,7 @@ namespace SmartPermutationAddIn
             //Generating the solution.
             try
             {
-                var model = new PermutationLibrary(listPossibleValues, listRulesMatrix);
+                var model = new SmartPermutations(listPossibleValues, listRulesMatrix);
                 string[,] permutationMatrix = model.ComputePermutationMatrix();
 
                 //Copying the data to a new sheet.

@@ -42,7 +42,7 @@
   <ItemGroup>
     <Compile Include="ExceptionInvalidData.cs" />
     <Compile Include="MatchingClass.cs" />
-    <Compile Include="PermutationLibrary.cs" />
+    <Compile Include="SmartPermutations.cs" />
     <Compile Include="PermutationHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rule.cs" />

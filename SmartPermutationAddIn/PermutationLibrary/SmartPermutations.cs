@@ -5,12 +5,12 @@ using System.Text;
 
 namespace PermutationLibrary
 {
-    public class PermutationLibrary
+    public class SmartPermutations
     {
         //public List<string[]> PossibleValues { get; set; }
         public List<MatchingClass> MatchingClassList { get; set; }
         
-        public PermutationLibrary(List<string[]> possibleValues, List<string[]> rulesMatrix)
+        public SmartPermutations(List<string[]> possibleValues, List<string[]> rulesMatrix)
         {
             //PossibleValues = possibleValues;
             MatchingClassList = this.MakeBenefitClassList(rulesMatrix, possibleValues);
