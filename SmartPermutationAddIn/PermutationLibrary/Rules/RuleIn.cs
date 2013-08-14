@@ -15,7 +15,7 @@ namespace PermutationLibrary.Rules
             this.RawRule = rule;
             var regEx = new Regex(@"(?<=\()(.+)(?=\))");
             var results = regEx.Matches(rule);
-            var regEx2 = new Regex(@"(?:(?<=')([\w\d\s]+?)(?='))+");
+            var regEx2 = new Regex(@"(?:(?<=')([\w\d\s#@&$]+?)(?='))+");
             var results2 = regEx2.Matches(results[0].Value);
             
             //Checking if the values extracted exist in the list of possible values
