@@ -80,7 +80,6 @@ namespace TestPermutationLibrary
             Assert.AreEqual(ruleList[1], ((RuleIn)output).Values[1]);
             Assert.AreEqual(ruleList[2], ((RuleIn)output).Values[2]);
             Assert.AreEqual(ruleList[3], ((RuleIn)output).Values[3]);
-            Assert.AreEqual(ruleList[4], ((RuleIn)output).Values[4]);
         }
 
         [TestMethod]
